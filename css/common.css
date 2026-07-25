@@ -106,3 +106,54 @@ h1 {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+
+/* Task 4 */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+}
+
+.login-form label input {
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 3px;
+}
+
+.login-form label input:hover {
+  border-color: black;
+}
+
+.login-form label {
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.login-form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
