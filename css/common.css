@@ -79,6 +79,7 @@ img {
 .item ul {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }
 
 /* Task 2 */
